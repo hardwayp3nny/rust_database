@@ -1,0 +1,263 @@
+{
+  "tables": [
+    {
+      "name": "users",
+      "columns": [
+        {
+          "name": "name",
+          "data_type": {
+            "String": 10
+          },
+          "is_primary_key": false
+        },
+        {
+          "name": "id",
+          "data_type": "Int",
+          "is_primary_key": false
+        }
+      ],
+      "rows": [
+        {
+          "values": [
+            "Alice Chen",
+            "1"
+          ]
+        },
+        {
+          "values": [
+            "Bob",
+            "2"
+          ]
+        },
+        {
+          "values": [
+            "jcluiz",
+            "666"
+          ]
+        },
+        {
+          "values": [
+            "lzh",
+            "77"
+          ]
+        },
+        {
+          "values": [
+            "xc",
+            "999"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "whitelist",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "Int",
+          "is_primary_key": false
+        },
+        {
+          "name": "bool",
+          "data_type": "Bool",
+          "is_primary_key": false
+        }
+      ],
+      "rows": [
+        {
+          "values": [
+            "1",
+            "0"
+          ]
+        },
+        {
+          "values": [
+            "999",
+            "0"
+          ]
+        },
+        {
+          "values": [
+            "888",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "employees",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "Int",
+          "is_primary_key": false
+        }
+      ],
+      "rows": [
+        {
+          "values": [
+            "999"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tweets",
+      "columns": [
+        {
+          "name": "name",
+          "data_type": {
+            "String": 10
+          },
+          "is_primary_key": false
+        },
+        {
+          "name": "content",
+          "data_type": {
+            "String": 10
+          },
+          "is_primary_key": false
+        }
+      ],
+      "rows": [
+        {
+          "values": [
+            "elon musk",
+            "make America great again!"
+          ]
+        },
+        {
+          "values": [
+            "elon musk",
+            "to the moon!"
+          ]
+        },
+        {
+          "values": [
+            "jack dorsey",
+            "just a reminder to be kind."
+          ]
+        },
+        {
+          "values": [
+            "jeff bezos",
+            "the future is bright!"
+          ]
+        },
+        {
+          "values": [
+            "sundar pichai",
+            "innovation is key."
+          ]
+        },
+        {
+          "values": [
+            "tim cook",
+            "privacy is a fundamental human right."
+          ]
+        },
+        {
+          "values": [
+            "bill gates",
+            "let's work together to solve big problems."
+          ]
+        },
+        {
+          "values": [
+            "mark zuckerberg",
+            "building community is important."
+          ]
+        },
+        {
+          "values": [
+            "satya nadella",
+            "empower every person and every organization."
+          ]
+        },
+        {
+          "values": [
+            "sheryl sandberg",
+            "lean in and take charge of your career."
+          ]
+        },
+        {
+          "values": [
+            "richard branson",
+            "screw it, let's do it!"
+          ]
+        },
+        {
+          "values": [
+            "lady gaga",
+            "be yourself, there's no one better."
+          ]
+        },
+        {
+          "values": [
+            "oprah winfrey",
+            "the biggest adventure is what lies ahead."
+          ]
+        },
+        {
+          "values": [
+            "barack obama",
+            "change will not come if we wait for some other person."
+          ]
+        },
+        {
+          "values": [
+            "donald trump",
+            "make America great again!"
+          ]
+        },
+        {
+          "values": [
+            "greta thunberg",
+            "how dare you!"
+          ]
+        },
+        {
+          "values": [
+            "malala yousafzai",
+            "one child, one teacher, one pen, and one book can change the world."
+          ]
+        },
+        {
+          "values": [
+            "ellen degeneres",
+            "be kind to one another."
+          ]
+        },
+        {
+          "values": [
+            "beyonce",
+            "who runs the world? girls!"
+          ]
+        },
+        {
+          "values": [
+            "taylor swift",
+            "this is a new year. a new beginning."
+          ]
+        },
+        {
+          "values": [
+            "rihanna",
+            "shine bright like a diamond."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "list",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "Int",
+          "is_primary_key": false
+        }
+      ],
+      "rows": []
+    }
+  ]
+}
